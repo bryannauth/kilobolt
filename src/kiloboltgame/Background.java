@@ -1,43 +1,45 @@
 package kiloboltgame;
 
 public class Background {
-    private int bgX, bgY, speedX;
 
-    public Background(int x, int y) {
-        bgX = x;
-        bgY = y;
-        speedX = 0;
-    }
+	private int bgX, bgY, speedX;
 
-    public void update() {
-        bgX += speedX;
+	public Background(int x, int y) {
+		bgX = x;
+		bgY = y;
+		speedX = 0;
+	}
 
-        if (bgX <= -2160) {
-            bgX += 4320;
-        }
-    }
+	public void update() {
+		bgX += speedX;
 
-    public int getBgX() {
-        return bgX;
-    }
+		if (bgX <= -2160) {
+			bgX += 4320;
+		}
+	}
 
-    public int getBgY() {
-        return bgY;
-    }
+	public int getBgX() {
+		return bgX;
+	}
 
-    public int getSpeedX() {
-        return speedX;
-    }
+	public int getBgY() {
+		return bgY;
+	}
 
-    public void setBgX(int bgX) {
-        this.bgX = bgX;
-    }
+	public int getSpeedX() {
+		return speedX;
+	}
 
-    public void setBgY(int bgY) {
-        this.bgY = bgY;
-    }
+	public void setBgX(int bgX) {
+		this.bgX = bgX;
+	}
 
-    public void setSpeedX(int speedX) {
-        this.speedX = speedX;
-    }
+	public void setBgY(int bgY) {
+		this.bgY = bgY;
+	}
+
+	public void setSpeedX(int speedX) {
+		this.speedX = speedX;
+	}
+
 }
