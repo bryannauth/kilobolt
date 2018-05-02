@@ -1,0 +1,2 @@
+# kilobolt
+I learned a fair amount from working on the second iteration of the Innovation Project, Unit 2 of the Kilobolt Game Development. For instance, video games utilize a specific type of loop that continually checks for changes (such as movement) and updates the game, also called a game loop. “this” is a very flexible keyword in the Java language. When you need a while loop to run indefinitely just make the condition statement “true”. For a program to pick up individual keystrokes you have to implement the KeyListener superclass.
